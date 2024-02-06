@@ -117,6 +117,22 @@ i{
     display: none;
 }
 
+.col-33:hover .like{
+    display: block;
+}
+
+.col-33 img.hover{
+    display: none;
+}
+
+.col-33:hover img.hover{
+    display: block;
+}
+
+.col-33:hover img.default{
+    display: none;
+}
+
 /* ----------------
     FOOTER
 ---------------- */
@@ -124,6 +140,7 @@ i{
 footer{
     background-color: #1A1A1A;
     color: white;
+    margin-top: 30px;
 }
 
 footer .container{
