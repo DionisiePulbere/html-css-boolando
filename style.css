@@ -53,6 +53,7 @@ li a{
 
 .logo img{
     height: 30px;
+    transform: translate(-50%, 10%);
 }
 
 i{
@@ -66,6 +67,7 @@ i{
     width: calc(100%/3);
     margin: 50px 10px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .price-o{
@@ -78,4 +80,31 @@ i{
     margin-right: 3px;
 }
 
+.tag{
+    position: absolute;
+    display: flex;
+    bottom: 90px;
+}
 
+.percentuale{
+    background-color: red;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-right: 4px;
+}
+
+.sost{
+    background-color: green;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.like{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: red;
+    display: none;
+}
