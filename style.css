@@ -19,7 +19,7 @@
 ---------------- */
 .container{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1200px; 
 }
 
 img{
@@ -40,7 +40,7 @@ header .container .row{
     padding: 20px 0;
 }
 
-.category ul{
+ul{
     list-style: none;
     display: flex;
 }
@@ -48,7 +48,7 @@ header .container .row{
 li a{
     color: #ffffff;
     text-decoration: none;
-    margin: 0 8px;
+    margin-right: 10px;
 }
 
 .logo img{
@@ -68,6 +68,14 @@ i{
     margin: 50px 10px;
     margin-bottom: 10px;
     position: relative;
+}
+
+.row div.col-33:first-child{
+    margin-left: 0;
+}
+
+.row div.col-33:last-child{
+    margin-right: 0;
 }
 
 .price-o{
@@ -107,4 +115,31 @@ i{
     top: 20px;
     color: red;
     display: none;
+}
+
+/* ----------------
+    FOOTER
+---------------- */
+
+footer{
+    background-color: #1A1A1A;
+    color: white;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer h3, footer h6{
+    margin-bottom: 16px;
+}
+
+h6{
+    font-size: 14px;
+}
+
+.social{
+    font-size: 24px;
 }
