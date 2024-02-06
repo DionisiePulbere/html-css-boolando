@@ -1,5 +1,53 @@
+/* ----------------
+    RESET
+---------------- */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+/* ----------------
+    RESET
+---------------- */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ----------------
+    HEADER
+---------------- */
+header{
+    background-color: #FF6900;
+    color: #ffffff;
+}
+
+.container-header{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container-header .row{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.category ul{
+    list-style: none;
+    display: flex;
+}
+
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.logo img{
+    height: 30px;
+}
+
+i{
+    cursor: pointer;
 }
