@@ -11,7 +11,19 @@
 ---------------- */
 .row{
     display: flex;
-    flex-wrap: wrap;
+
+}
+
+/* ----------------
+    GENERAL
+---------------- */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+img{
+    max-width: 100%;
 }
 
 /* ----------------
@@ -22,15 +34,10 @@ header{
     color: #ffffff;
 }
 
-.container-header{
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-.container-header .row{
+header .container .row{
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .category ul{
@@ -51,3 +58,24 @@ li a{
 i{
     cursor: pointer;
 }
+
+/* ----------------
+    MAIN
+---------------- */
+.col-33{
+    width: calc(100%/3);
+    margin: 50px 10px;
+    margin-bottom: 10px;
+}
+
+.price-o{
+    text-decoration: line-through;
+}
+
+.price-n{
+    color: red;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+
