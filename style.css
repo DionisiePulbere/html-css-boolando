@@ -126,7 +126,7 @@ i{
 }
 
 .col-33:hover img.hover{
-    display: block;
+    display: inline-block;
 }
 
 .col-33:hover img.default{
